@@ -1,0 +1,19 @@
+{
+  "name": "array_decoder",
+  "version": "0.0.0",
+  "description": "Like string_decoder but for arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonistiigi/array_decoder.git"
+  },
+  "keywords": [
+    "string_decoder",
+    "array"
+  ],
+  "author": "Tõnis Tiigi <tonistiigi@gmail.com>",
+  "license": "MIT"
+}
