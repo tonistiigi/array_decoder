@@ -32,10 +32,10 @@ tests.empty_runs = function() {
 }
 
 tests.utf8_split = function() {
-  var decoder = new ArrayDecoder
+  var decoder = new ArrayDecoder('string')
   var buffer = new Buffer('tõnis')
-  var b1 = buffer.slice(0, 2).toString()
-  var b2 = buffer.slice(2, 6).toString()
+  var b1 = buffer.slice(0, 2)
+  var b2 = buffer.slice(2, 6)
   var result = decoder.write(['foo', b1])
   assert.deepEqual(result, ['foo'])
   result = decoder.write([b2, 'bar'])
