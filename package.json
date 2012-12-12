@@ -2,7 +2,7 @@
   "name": "array_decoder",
   "version": "0.0.0",
   "description": "Like string_decoder but for arrays",
-  "main": "index.js",
+  "main": "array_decoder.js",
   "scripts": {
     "test": "node test"
   },
