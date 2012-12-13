@@ -1,6 +1,5 @@
 var ArrayDecoder = exports.ArrayDecoder = function (format) {
-  this.format = format || 'auto'
-  switch (this.format) {
+  switch (format || 'auto') {
     case 'buffer':
       this.merge = this.mergeBuffer
     break
