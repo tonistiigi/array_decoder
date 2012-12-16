@@ -27,9 +27,10 @@ console.log(decoder.write(['l'], true))
 
 ### new ArrayDecoder([format])
 
-Output can be `string` or `buffer`. If not specified it will be as input.
+Output can be `string` or `buffer`. If not specified it will be same as input.
 
 ### write(array, complete)
 
 `array` - Array of strings, buffers or array of arrays of string or buffers.
+
 `complete` - Set to true for last chunk.
