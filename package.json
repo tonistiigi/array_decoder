@@ -1,6 +1,6 @@
 {
   "name": "array_decoder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Like string_decoder but for arrays",
   "main": "array_decoder.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "string_decoder",
-    "array"
+    "array",
+    "stream"
   ],
   "author": "Tõnis Tiigi <tonistiigi@gmail.com>",
   "license": "MIT"
