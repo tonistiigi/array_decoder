@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/tonistiigi/array_decoder.png)](http://travis-ci.org/tonistiigi/array_decoder)
+
 ## Array Decoder
 
 This class can be used to stream arrays of data when chunks may end with partial elements. Similar to string decoder but for arrays.
